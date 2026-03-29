@@ -113,7 +113,7 @@ python -m streamlit run Translation_Offline/app.py
 
 * **Name:** Navya Vudayagiri
 * **Email:** (vudayagirinavya9458@gmail.com)
-* **LinkedIn:** [linkedin.com/in/vudayagiri-navya]
+* **LinkedIn:** linkedin.com/in/vudayagiri-navya
 
 ---
 
