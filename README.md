@@ -83,44 +83,37 @@ Welcome to my AI project repository! This collection demonstrates hands-on exper
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone <(https://github.com/VudayagiriNavya/CodeAlpha_AI_Projects.git
+)>
+cd CodeAlpha_AI_Projects
+
 ```
 
 2. Install dependencies:
 
 ```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 3. Run the desired project:
 
 ```bash
-# Chatbot
-streamlit run chatbot_app.py  
+# Chatbot for FAQs
+python -m streamlit run Chatbot/chatbot_app.py
 
 # Object Detection & Tracking
-python object_detection_app.py  
+python -m streamlit run Object_Detection_Project/app.py
 
-# Offline Translation Tool
-streamlit run translation_tool.py
+# Translation Tool with Voice Input & TTS
+python -m streamlit run Translation_Offline/app.py
 ```
-
----
-
-## 🌟 Future Enhancements
-
-* Chatbot: Deep learning-based intent classification
-* Object Detection: Custom dataset training and improved tracking
-* Translation Tool: More voices, adjustable TTS speed, dark mode UI
-
----
 
 ## 📫 Contact
 
 * **Name:** Navya Vudayagiri
 * **Email:** (vudayagirinavya9458@gmail.com)
-* **LinkedIn:** [LinkedIn URL]
+* **LinkedIn:** [linkedin.com/in/vudayagiri-navya]
 
 ---
 
@@ -128,14 +121,14 @@ streamlit run translation_tool.py
 
 ```
 ├── Chatbot/
-│   ├── chatbot_app.py
-│   └── faqs.csv
+│   ├── app.py
+│   └── Screenshot 2026-03-29 131943.png
 ├── ObjectDetection/
-│   ├── object_detection_app.py
-│   └── models/
+│   ├── app.py
+│   └── ai_object_detection.webm
 ├── TranslationTool/
-│   ├── translation_tool.py
-│   └── assets/
+│   ├── app.py
+│   └── Translation Tool.pdf
 ├── requirements.txt
 └── README.md
 ```
